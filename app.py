@@ -201,7 +201,7 @@ negative_example = (
 
 with st.sidebar:
 
-    st.image("assets/logo.png", width=180)
+    st.image("assets/logo.png", width=300)
 
     st.title("🎬 About")
 
@@ -226,7 +226,7 @@ This application predicts the sentiment of movie reviews using an LSTM model tra
 
 st.image("assets/banner.jpg", use_container_width=True)
 
-st.title("🎬 AI Movie Sentiment Analyzer")
+st.title("🎬 Movie Sentiment Analyzer")
 
 st.write(
     "Analyze movie reviews using Deep Learning (LSTM)."
